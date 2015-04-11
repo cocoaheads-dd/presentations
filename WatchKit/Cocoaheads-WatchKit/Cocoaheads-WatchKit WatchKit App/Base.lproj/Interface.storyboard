@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Glw-0P-rNm">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Main Menü Controller-->
+        <scene sceneID="697-BV-Fp2">
+            <objects>
+                <controller id="Glw-0P-rNm" customClass="MainMenüController" customModule="Cocoaheads_WatchKit_WatchKit_Extension">
+                    <items>
+                        <button width="1" height="0.5" alignment="left" title="Zeige Liste" id="eqw-C0-3BN">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="rTb-TW-ZxX"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="0.5" alignment="left" title="Hinzufügen" id="mlr-mO-CiS">
+                            <connections>
+                                <action selector="addNewElement" destination="Glw-0P-rNm" id="1Uv-Q6-s39"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-3" y="345"/>
+        </scene>
+        <!--list-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="list" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Cocoaheads_WatchKit_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" hidden="YES" text="Label" id="mzA-6S-rkn">
+                            <color key="textColor" red="1" green="0.060231345866727404" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <table alignment="left" id="sxw-sw-Zfi">
+                            <items>
+                                <tableRow identifier="default" id="bOb-Uv-fI4" customClass="TableRow" customModule="Cocoaheads_WatchKit_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="ahB-Pw-4gO">
+                                        <items>
+                                            <label width="1" alignment="left" text="Objekt" numberOfLines="2" id="W9h-lY-vsq"/>
+                                            <label width="1" alignment="left" text="time" textAlignment="right" id="UWe-pW-LKP">
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="backgroundLabel" destination="ahB-Pw-4gO" id="2zx-wm-GQL"/>
+                                        <outlet property="timeLabel" destination="UWe-pW-LKP" id="R2O-ic-bbi"/>
+                                        <outlet property="titleLabel" destination="W9h-lY-vsq" id="k9P-al-m3v"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="action" id="UWx-of-4KB" customClass="ActionRow" customModule="Cocoaheads_WatchKit_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="QhX-Nc-0yf">
+                                        <items>
+                                            <label width="1" height="1" alignment="left" text="Label" textAlignment="center" id="a3m-WI-kPa"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="actionLabel" destination="a3m-WI-kPa" id="JTi-U0-XJD"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <menu key="menu" id="7sc-jU-rLB">
+                        <items>
+                            <menuItem title="Löschen" icon="block" id="kn5-G6-T8s">
+                                <connections>
+                                    <action selector="pressedDeleteButton" destination="AgC-eL-Hgc" id="ZeY-JV-vgO"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="table" destination="sxw-sw-Zfi" id="H1H-KB-eac"/>
+                        <outlet property="warnLabel" destination="mzA-6S-rkn" id="34L-6q-qCv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="-3" y="866"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="iJ6-c3-q2a">
+            <objects>
+                <glanceController id="R0z-HS-kSc">
+                    <items>
+                        <group alignment="left" id="KBj-d8-n90"/>
+                        <group alignment="left" id="kUy-Af-DGW"/>
+                    </items>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="-3" y="605"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Cocoaheads_WatchKit_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="220" y="866"/>
+        </scene>
+        <!--detail-->
+        <scene sceneID="bB3-Wz-N4F">
+            <objects>
+                <controller identifier="detail" id="G4C-K1-rbt" customClass="DetailInterfaceController" customModule="Cocoaheads_WatchKit_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="ZYo-qA-6Qo">
+                            <items>
+                                <imageView width="0.40000000000000002" alignment="left" contentMode="scaleAspectFit" id="Fjg-q9-Z9Y"/>
+                                <label width="0.59999999999999998" alignment="left" text="Label" id="cYt-Xc-HQd" userLabel="titel"/>
+                            </items>
+                        </group>
+                        <label width="1" alignment="left" text="Label" id="UcF-h8-VQA"/>
+                    </items>
+                    <connections>
+                        <outlet property="datum" destination="UcF-h8-VQA" id="K0J-h8-yCM"/>
+                        <outlet property="imageView" destination="Fjg-q9-Z9Y" id="9Zw-Ae-r3F"/>
+                        <outlet property="titel" destination="cYt-Xc-HQd" id="oH6-iP-s8E"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="426" y="345"/>
+        </scene>
+    </scenes>
+</document>

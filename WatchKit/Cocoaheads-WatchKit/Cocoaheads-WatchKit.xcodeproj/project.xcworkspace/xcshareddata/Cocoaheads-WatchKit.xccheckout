@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B5C863F8-1038-4EA3-81B7-193F0436EDF9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cocoaheads-WatchKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4AA94ECDAC06C6E17AA11D1904F390D3EB5844DE</key>
+		<string>github.com:BenchR267/Cocoaheads-WatchKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cocoaheads-WatchKit/Cocoaheads-WatchKit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4AA94ECDAC06C6E17AA11D1904F390D3EB5844DE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:BenchR267/Cocoaheads-WatchKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4AA94ECDAC06C6E17AA11D1904F390D3EB5844DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4AA94ECDAC06C6E17AA11D1904F390D3EB5844DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cocoaheads-WatchKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
