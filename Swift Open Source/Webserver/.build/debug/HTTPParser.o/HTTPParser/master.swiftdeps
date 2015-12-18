@@ -1,8 +1,0 @@
-version: "Apple Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
-options: "aca57f8a0ab16c9e3e9cb2c4b526d6e3"
-build_time: [503688551, 465758000]
-inputs:
-  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTPParser-0.1.0/Sources/Method+HTTPParser.swift": [503688531, 0]
-  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTPParser-0.1.0/Sources/ParseError.swift": [503688531, 0]
-  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTPParser-0.1.0/Sources/RequestParser.swift": [503688531, 0]
-  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTPParser-0.1.0/Sources/ResponseParser.swift": [503688531, 0]
