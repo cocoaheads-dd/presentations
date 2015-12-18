@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/master.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/Parser.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/Parser.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Sources/Parser.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/Parser~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/Parser.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/RequestParserType.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/RequestParserType.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Sources/RequestParserType.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/RequestParserType~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/RequestParserType.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/ResponseSerializerType.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/ResponseSerializerType.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Sources/ResponseSerializerType.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/ResponseSerializerType~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/ResponseSerializerType.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/Serializer.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/Serializer.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Sources/Serializer.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/Serializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/Serializer.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/Server.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/Server.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Sources/Server.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/Server~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/Server.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/ServerType.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/ServerType.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Sources/ServerType.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/ServerType~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/ServerType.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/TCPServer.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/TCPServer.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Sources/TCPServer.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/TCPServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/TCPServer.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/TCPServerType.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/TCPServerType.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Sources/TCPServerType.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/TCPServerType~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/TCPServerType.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/TCPStream.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/TCPStream.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Sources/TCPStream.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/TCPStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Epoch.o/Epoch/TCPStream.swiftdeps"
+  }
+}

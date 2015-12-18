@@ -1,0 +1,79 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSLType"
+- "SSLContextType"
+- "SSLClientContextType"
+- "SSLServerContextType"
+- "SSLClientStreamType"
+- "SSLServerStreamType"
+provides-nominal:
+- "P4Core7SSLType"
+- "P4Core14SSLContextType"
+- "P4Core20SSLClientContextType"
+- "P4Core20SSLServerContextType"
+- "P4Core19SSLClientStreamType"
+- "P4Core19SSLServerStreamType"
+provides-member:
+- ["P4Core7SSLType", ""]
+- ["P4Core14SSLContextType", ""]
+- ["P4Core20SSLClientContextType", ""]
+- ["P4Core20SSLServerContextType", ""]
+- ["P4Core19SSLClientStreamType", ""]
+- ["P4Core19SSLServerStreamType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "SSLServerStreamType"
+- "SSLContextType"
+- "SSLClientContextType"
+- "String"
+- "StreamType"
+- "SSLServerContextType"
+- "SSLType"
+- "SSLClientStreamType"
+depends-member:
+- ["P4Core20SSLClientContextType", "SSLClientStreamType"]
+- ["P4Core20SSLClientContextType", "streamType"]
+- ["P4Core19SSLClientStreamType", "SSLClientContextType"]
+- ["P4Core19SSLClientStreamType", "StreamType"]
+- ["P4Core19SSLClientStreamType", "init"]
+- ["P4Core14SSLContextType", "SSLClientStreamType"]
+- ["P4Core14SSLContextType", "SSLServerStreamType"]
+- ["P4Core14SSLContextType", "String"]
+- ["P4Core14SSLContextType", ""]
+- ["P4Core20SSLServerContextType", "SSLServerStreamType"]
+- ["P4Core20SSLServerContextType", "String"]
+- ["P4Core20SSLServerContextType", "init"]
+- ["P4Core20SSLServerContextType", "streamType"]
+- ["P4Core19SSLServerStreamType", "SSLServerContextType"]
+- ["P4Core19SSLServerStreamType", "StreamType"]
+- ["P4Core19SSLServerStreamType", "init"]
+- ["P4Core10StreamType", "SSLClientContextType"]
+- ["P4Core10StreamType", "SSLServerContextType"]
+- ["P4Core10StreamType", "StreamType"]
+- ["P4Core10StreamType", ""]
+depends-nominal:
+- "P4Core20SSLClientContextType"
+- "P4Core19SSLClientStreamType"
+- "P4Core14SSLContextType"
+- "P4Core20SSLServerContextType"
+- "P4Core19SSLServerStreamType"
+- "P4Core10StreamType"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/ben/Desktop/SwiftOS/Webserver/Packages/CLibvenice-0.1.0/module.modulemap"
+- "/Users/ben/Desktop/SwiftOS/Webserver/Packages/CHTTPParser-0.1.0/module.modulemap"
+interface-hash: "9940805e75ffbf49dbb5a15cbc3b2015"

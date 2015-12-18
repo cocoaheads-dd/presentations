@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
+options: "41f585ea4465f063d948eb4c623a010a"
+build_time: [503688550, 894873000]
+inputs:
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Context.swift": [503688536, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Method.swift": [503688536, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Request+JSON.swift": [503688536, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Request.swift": [503688536, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Responders.swift": [503688536, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Response+JSON.swift": [503688536, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Response.swift": [503688536, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Status.swift": [503688536, 0]

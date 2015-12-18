@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
+options: "90a98533e01cf4f581e165ccd83f82a6"
+build_time: [503688553, 459406000]
+inputs:
+  "/Users/ben/Desktop/SwiftOS/Webserver/src/main.swift": [503607744, 0]

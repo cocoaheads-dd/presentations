@@ -1,0 +1,140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TCPServer"
+provides-nominal:
+- "V5Epoch9TCPServer"
+provides-member:
+- ["V5Epoch9TCPServer", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Void"
+- "StreamType"
+- "Channel"
+- "BooleanLiteralType"
+- "TCPServer"
+- !private "FloatLiteralType"
+- "TCPServerType"
+- !private "TCPServerSocket"
+- !private "=="
+- !private "co"
+- "SSLServerContextType"
+- !private "IntegerLiteralType"
+- !private "TCPStream"
+- "Int"
+- !private "++"
+- !private "IP"
+depends-member:
+- !private ["Ps9AnyObject", "accept"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "receive"]
+- !private ["Ps9AnyObject", "send"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["C6Venice7Channel", "init"]
+- !private ["C6Venice7Channel", "receive"]
+- !private ["C6Venice7Channel", "send"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["V6Venice2IP", "init"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- ["P6Venice10Receivable", "init"]
+- !private ["P6Venice10Receivable", "receive"]
+- !private ["P6Venice10Receivable", "send"]
+- !private ["P4Core14SSLContextType", "streamType"]
+- !private ["P4Core20SSLServerContextType", "streamType"]
+- !private ["P4Core19SSLServerStreamType", "init"]
+- ["P6Venice8Sendable", "init"]
+- !private ["P6Venice8Sendable", "receive"]
+- !private ["P6Venice8Sendable", "send"]
+- ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "receive"]
+- !private ["Ps12SequenceType", "send"]
+- !private ["P4Core10StreamType", "init"]
+- ["V5Epoch9TCPServer", "Channel"]
+- !private ["V5Epoch9TCPServer", "IP"]
+- ["V5Epoch9TCPServer", "Int"]
+- ["V5Epoch9TCPServer", "SSL"]
+- ["V5Epoch9TCPServer", "SSLServerContextType"]
+- ["V5Epoch9TCPServer", "StreamType"]
+- !private ["V5Epoch9TCPServer", "TCPServerSocket"]
+- !private ["V5Epoch9TCPServer", "TCPStream"]
+- ["V5Epoch9TCPServer", "Void"]
+- ["V5Epoch9TCPServer", "acceptClient"]
+- ["V5Epoch9TCPServer", "closeChannel"]
+- !private ["V5Epoch9TCPServer", "co"]
+- ["V5Epoch9TCPServer", "deinit"]
+- ["V5Epoch9TCPServer", "init"]
+- ["V5Epoch9TCPServer", "port"]
+- ["V5Epoch9TCPServer", "stop"]
+- !private ["C6Venice15TCPServerSocket", "accept"]
+- !private ["C6Venice15TCPServerSocket", "init"]
+- ["P5Epoch13TCPServerType", "Channel"]
+- !private ["P5Epoch13TCPServerType", "IP"]
+- !private ["P5Epoch13TCPServerType", "SSL"]
+- !private ["P5Epoch13TCPServerType", "TCPServerSocket"]
+- !private ["P5Epoch13TCPServerType", "TCPStream"]
+- ["P5Epoch13TCPServerType", "acceptClient"]
+- !private ["P5Epoch13TCPServerType", "closeChannel"]
+- !private ["P5Epoch13TCPServerType", "co"]
+- !private ["P5Epoch13TCPServerType", "port"]
+- ["P5Epoch13TCPServerType", "stop"]
+- ["P5Epoch13TCPServerType", ""]
+- !private ["C5Epoch9TCPStream", "deinit"]
+- !private ["C5Epoch9TCPStream", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "C6Venice7Channel"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "V6Venice2IP"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- "P6Venice10Receivable"
+- !private "P4Core14SSLContextType"
+- !private "P4Core20SSLServerContextType"
+- !private "P4Core19SSLServerStreamType"
+- "P6Venice8Sendable"
+- "Ps12SequenceType"
+- !private "P4Core10StreamType"
+- "V5Epoch9TCPServer"
+- !private "C6Venice15TCPServerSocket"
+- "P5Epoch13TCPServerType"
+- !private "C5Epoch9TCPStream"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Core.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/ben/Desktop/SwiftOS/Webserver/Packages/CLibvenice-0.1.0/module.modulemap"
+- "/Users/ben/Desktop/SwiftOS/Webserver/Packages/CHTTPParser-0.1.0/module.modulemap"
+- "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.swiftmodule"
+- "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTPParser.swiftmodule"
+- "/Users/ben/Desktop/SwiftOS/Webserver/Packages/CURIParser-0.1.0/module.modulemap"
+- "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/Venice.swiftmodule"
+interface-hash: "e928e4178ca4c5c4070bc8c20b67f988"

@@ -1,0 +1,13 @@
+version: "Apple Swift version 2.2-dev (LLVM 7bae82deaa, Clang 53d04af5ce, Swift 5995ef2acd)"
+options: "2e6ccdac9ab004524e270728b75d7c1b"
+build_time: [503688553, 10539000]
+inputs:
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/Parser.swift": [503688529, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/RequestParserType.swift": [503688529, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/ResponseSerializerType.swift": [503688529, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/Serializer.swift": [503688529, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/Server.swift": [503688529, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/ServerType.swift": [503688529, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/TCPServer.swift": [503688529, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/TCPServerType.swift": [503688529, 0]
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/Epoch-0.1.0/Sources/TCPStream.swift": [503688529, 0]

@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/master.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Context.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Context.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/Sources/Context.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Context~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Context.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Method.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Method.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/Sources/Method.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Method~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Method.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Request+JSON.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Request+JSON.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/Sources/Request+JSON.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Request+JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Request+JSON.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Request.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Request.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/Sources/Request.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Request.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Responders.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Responders.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/Sources/Responders.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Responders~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Responders.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Response+JSON.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Response+JSON.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/Sources/Response+JSON.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Response+JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Response+JSON.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Response.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Response.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/Sources/Response.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Response.swiftdeps"
+  },
+  "/Users/ben/Desktop/SwiftOS/Webserver/Packages/HTTP-0.1.2/Sources/Status.swift": {
+    "dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Status.d",
+    "object": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/Sources/Status.swift.o",
+    "swiftmodule": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Status~partial.swiftmodule",
+    "swift-dependencies": "/Users/ben/Desktop/SwiftOS/Webserver/.build/debug/HTTP.o/HTTP/Status.swiftdeps"
+  }
+}

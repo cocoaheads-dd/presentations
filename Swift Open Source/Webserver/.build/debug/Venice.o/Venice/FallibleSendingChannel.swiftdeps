@@ -1,0 +1,167 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FallibleSendingChannel"
+provides-nominal:
+- "C6Venice22FallibleSendingChannel"
+provides-member:
+- ["C6Venice22FallibleSendingChannel", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Void"
+- "UnsafeMutablePointer"
+- "ChannelResult"
+- "FallibleSendable"
+- "Int"
+- "FallibleChannelGenerator"
+- "FallibleSendingChannel"
+- "FallibleChannel"
+- "SequenceType"
+depends-member:
+- ["Ps9AnyObject", "Element"]
+- !private ["Ps9AnyObject", "FallibleChannelGenerator"]
+- ["Ps9AnyObject", "Generator"]
+- ["Ps9AnyObject", "_copyToNativeArrayBuffer"]
+- ["Ps9AnyObject", "_customContainsEquatableElement"]
+- ["Ps9AnyObject", "_initializeTo"]
+- ["Ps9AnyObject", "_preprocessingPass"]
+- !private ["Ps9AnyObject", "channel"]
+- !private ["Ps9AnyObject", "close"]
+- ["Ps9AnyObject", "dropFirst"]
+- ["Ps9AnyObject", "dropLast"]
+- ["Ps9AnyObject", "filter"]
+- ["Ps9AnyObject", "forEach"]
+- ["Ps9AnyObject", "generate"]
+- !private ["Ps9AnyObject", "getResultFromBuffer"]
+- ["Ps9AnyObject", "map"]
+- ["Ps9AnyObject", "prefix"]
+- !private ["Ps9AnyObject", "registerSend"]
+- ["Ps9AnyObject", "send"]
+- !private ["Ps9AnyObject", "sendResult"]
+- ["Ps9AnyObject", "split"]
+- ["Ps9AnyObject", "suffix"]
+- ["Ps9AnyObject", "underestimateCount"]
+- ["Ps9AnyObject", ""]
+- !private ["C6Venice15FallibleChannel", "close"]
+- !private ["C6Venice15FallibleChannel", "deinit"]
+- !private ["C6Venice15FallibleChannel", "getResultFromBuffer"]
+- !private ["C6Venice15FallibleChannel", "registerSend"]
+- !private ["C6Venice15FallibleChannel", "send"]
+- !private ["C6Venice15FallibleChannel", "sendResult"]
+- ["V6Venice24FallibleChannelGenerator", "Element"]
+- ["V6Venice24FallibleChannelGenerator", "deinit"]
+- !private ["V6Venice24FallibleChannelGenerator", "init"]
+- !private ["P6Venice18FallibleReceivable", "close"]
+- !private ["P6Venice18FallibleReceivable", "getResultFromBuffer"]
+- !private ["P6Venice18FallibleReceivable", "registerSend"]
+- !private ["P6Venice18FallibleReceivable", "send"]
+- !private ["P6Venice18FallibleReceivable", "sendResult"]
+- ["P6Venice16FallibleSendable", "Element"]
+- !private ["P6Venice16FallibleSendable", "FallibleChannelGenerator"]
+- ["P6Venice16FallibleSendable", "Generator"]
+- ["P6Venice16FallibleSendable", "_copyToNativeArrayBuffer"]
+- ["P6Venice16FallibleSendable", "_customContainsEquatableElement"]
+- ["P6Venice16FallibleSendable", "_initializeTo"]
+- ["P6Venice16FallibleSendable", "_preprocessingPass"]
+- !private ["P6Venice16FallibleSendable", "channel"]
+- !private ["P6Venice16FallibleSendable", "close"]
+- ["P6Venice16FallibleSendable", "dropFirst"]
+- ["P6Venice16FallibleSendable", "dropLast"]
+- ["P6Venice16FallibleSendable", "filter"]
+- ["P6Venice16FallibleSendable", "forEach"]
+- ["P6Venice16FallibleSendable", "generate"]
+- !private ["P6Venice16FallibleSendable", "getResultFromBuffer"]
+- ["P6Venice16FallibleSendable", "map"]
+- ["P6Venice16FallibleSendable", "prefix"]
+- !private ["P6Venice16FallibleSendable", "registerSend"]
+- ["P6Venice16FallibleSendable", "send"]
+- !private ["P6Venice16FallibleSendable", "sendResult"]
+- ["P6Venice16FallibleSendable", "split"]
+- ["P6Venice16FallibleSendable", "suffix"]
+- ["P6Venice16FallibleSendable", "underestimateCount"]
+- ["P6Venice16FallibleSendable", ""]
+- ["C6Venice22FallibleSendingChannel", "ChannelResult"]
+- ["C6Venice22FallibleSendingChannel", "Element"]
+- ["C6Venice22FallibleSendingChannel", "FallibleChannel"]
+- ["C6Venice22FallibleSendingChannel", "FallibleChannelGenerator"]
+- ["C6Venice22FallibleSendingChannel", "Generator"]
+- ["C6Venice22FallibleSendingChannel", "Int"]
+- ["C6Venice22FallibleSendingChannel", "SubSequence"]
+- ["C6Venice22FallibleSendingChannel", "T"]
+- ["C6Venice22FallibleSendingChannel", "UnsafeMutablePointer"]
+- ["C6Venice22FallibleSendingChannel", "Void"]
+- ["C6Venice22FallibleSendingChannel", "_copyToNativeArrayBuffer"]
+- ["C6Venice22FallibleSendingChannel", "_customContainsEquatableElement"]
+- ["C6Venice22FallibleSendingChannel", "_initializeTo"]
+- ["C6Venice22FallibleSendingChannel", "_preprocessingPass"]
+- !private ["C6Venice22FallibleSendingChannel", "channel"]
+- ["C6Venice22FallibleSendingChannel", "close"]
+- ["C6Venice22FallibleSendingChannel", "deinit"]
+- ["C6Venice22FallibleSendingChannel", "dropFirst"]
+- ["C6Venice22FallibleSendingChannel", "dropLast"]
+- ["C6Venice22FallibleSendingChannel", "filter"]
+- ["C6Venice22FallibleSendingChannel", "forEach"]
+- ["C6Venice22FallibleSendingChannel", "generate"]
+- ["C6Venice22FallibleSendingChannel", "getResultFromBuffer"]
+- ["C6Venice22FallibleSendingChannel", "init"]
+- ["C6Venice22FallibleSendingChannel", "map"]
+- ["C6Venice22FallibleSendingChannel", "prefix"]
+- ["C6Venice22FallibleSendingChannel", "registerSend"]
+- ["C6Venice22FallibleSendingChannel", "send"]
+- ["C6Venice22FallibleSendingChannel", "sendResult"]
+- ["C6Venice22FallibleSendingChannel", "split"]
+- ["C6Venice22FallibleSendingChannel", "suffix"]
+- ["C6Venice22FallibleSendingChannel", "underestimateCount"]
+- ["Ps13GeneratorType", "Element"]
+- !private ["Ps13GeneratorType", "init"]
+- ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "FallibleChannelGenerator"]
+- ["Ps12SequenceType", "Generator"]
+- ["Ps12SequenceType", "_copyToNativeArrayBuffer"]
+- ["Ps12SequenceType", "_customContainsEquatableElement"]
+- ["Ps12SequenceType", "_initializeTo"]
+- ["Ps12SequenceType", "_preprocessingPass"]
+- !private ["Ps12SequenceType", "channel"]
+- !private ["Ps12SequenceType", "close"]
+- ["Ps12SequenceType", "dropFirst"]
+- ["Ps12SequenceType", "dropLast"]
+- ["Ps12SequenceType", "filter"]
+- ["Ps12SequenceType", "forEach"]
+- ["Ps12SequenceType", "generate"]
+- !private ["Ps12SequenceType", "getResultFromBuffer"]
+- ["Ps12SequenceType", "map"]
+- ["Ps12SequenceType", "prefix"]
+- !private ["Ps12SequenceType", "registerSend"]
+- ["Ps12SequenceType", "send"]
+- !private ["Ps12SequenceType", "sendResult"]
+- ["Ps12SequenceType", "split"]
+- ["Ps12SequenceType", "suffix"]
+- ["Ps12SequenceType", "underestimateCount"]
+- ["Ps12SequenceType", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C6Venice15FallibleChannel"
+- "V6Venice24FallibleChannelGenerator"
+- !private "P6Venice18FallibleReceivable"
+- "P6Venice16FallibleSendable"
+- "C6Venice22FallibleSendingChannel"
+- "Ps13GeneratorType"
+- "Ps12SequenceType"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Users/ben/Desktop/SwiftOS/Webserver/Packages/CURIParser-0.1.0/module.modulemap"
+- "/Users/ben/Desktop/SwiftOS/Webserver/Packages/CHTTPParser-0.1.0/module.modulemap"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-10-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+interface-hash: "c043a125eca46158f289c2292c97678c"
