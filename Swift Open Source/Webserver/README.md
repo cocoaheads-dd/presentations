@@ -34,10 +34,10 @@ $ git clone git@github.com:cocoaheads-dd/presentations.git
 $ cd presentations/Swift\ Open\ Source/Webserver/
 
 OS X:
-$ swift build
+$ /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin/swift build
 
 Ubuntu:
-$ /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin/swift build
+$ swift build
 ```
 
 Run the server:
