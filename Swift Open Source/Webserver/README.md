@@ -29,8 +29,14 @@ $ dpkg -i uri_parser.deb
 Build the project:
 
 ```bash
+OS X & Ubuntu:
 $ git clone git@github.com:cocoaheads-dd/presentations.git
 $ cd presentations/Swift\ Open\ Source/Webserver/
+
+OS X:
+$ swift build
+
+Ubuntu:
 $ /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin/swift build
 ```
 
