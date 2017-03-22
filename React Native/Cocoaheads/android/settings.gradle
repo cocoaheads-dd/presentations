@@ -1,0 +1,3 @@
+rootProject.name = 'Cocoaheads'
+
+include ':app'
